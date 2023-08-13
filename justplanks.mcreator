@@ -1,9 +1,61 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RedstoneArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RedstoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor_helmet_recipe"
+    },
+    {
+      "name": "RedstoneArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor_body_recipe"
+    },
+    {
+      "name": "RedstoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor_leggings_recipe"
+    },
+    {
+      "name": "RedstoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_armor_boots_recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.justplanks.redstone_armor_leggings": "Redstone Leggings",
+      "item.justplanks.redstone_armor_boots": "Redstone Boots",
+      "item.justplanks.redstone_armor_helmet": "Redstone Helmet",
+      "item.justplanks.redstone_armor_chestplate": "Redstone Chestplate"
+    }
   },
   "foldersRoot": {
     "name": "~",

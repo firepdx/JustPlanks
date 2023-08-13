@@ -15,6 +15,8 @@ package net.termsplanks.justplanks;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.termsplanks.justplanks.init.JustplanksModItems;
+
 import net.fabricmc.api.ModInitializer;
 
 public class JustplanksMod implements ModInitializer {
@@ -24,6 +26,8 @@ public class JustplanksMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing JustplanksMod");
+
+		JustplanksModItems.load();
 
 	}
 }

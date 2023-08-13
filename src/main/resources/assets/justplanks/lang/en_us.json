@@ -1,1 +1,6 @@
-{}
+{
+  "item.justplanks.redstone_armor_leggings": "Redstone Leggings",
+  "item.justplanks.redstone_armor_boots": "Redstone Boots",
+  "item.justplanks.redstone_armor_helmet": "Redstone Helmet",
+  "item.justplanks.redstone_armor_chestplate": "Redstone Chestplate"
+}
