@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "justplanks",
+  "version": "1.0.0",
+  "name": "JustPlanks",
+  "authors": [
+    "ABC, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.termsplanks.justplanks.JustplanksMod"
+    ],
+    "client": [
+      "net.termsplanks.justplanks.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  }
+}
